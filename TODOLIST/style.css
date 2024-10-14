@@ -1,0 +1,30 @@
+body{
+    background: rgba( 130, 138, 58, 0.8);
+}
+
+::placeholder{
+    color: #fff !important;
+}
+
+.container{
+    max-width: 500px;
+}
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.todos li{
+    background: rgba(111, 126, 68, 0.6);
+    color: white;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.filtered{
+    display: none !important;
+}
